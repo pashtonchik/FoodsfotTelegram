@@ -3,7 +3,7 @@ import "./Card.css";
 import Button from "../Button/Button";
 function Card({ food, onAdd, onRemove }) {
   const [count, setCount] = useState(0);
-  const { title, Image, price, id } = food;
+  const { title, Image, price, id, weight } = food;
 
   const handleIncrement = () => {
     setCount(count + 1);
@@ -25,7 +25,9 @@ function Card({ food, onAdd, onRemove }) {
         <img src={Image} alt={title} />
       </div>
       <h4 className="card__title">
-        {title} . <span className="card__price">$ {price}</span>
+        {title} 
+        <br/>
+        <span className="card__price">₽ {price} / {weight}</span>
       </h4>
 
       <div className="btn-container">

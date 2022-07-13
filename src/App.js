@@ -41,13 +41,12 @@ function App() {
   };
 
   const onCheckout = () => {
-    tele.MainButton.text = "Pay :)";
-    tele.MainButton.show();
+    tele.sendData(JSON.stringify(cartItems));
   };
 
   return (
     <>
-      <h1 className="heading">Order Food</h1>
+      <h1 className="heading">Заказ продуктов</h1>
       <Cart cartItems={cartItems} onCheckout={onCheckout}/>
       <div className="cards__container">
         {foods.map((food) => {
