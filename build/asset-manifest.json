@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b674415.css",
+    "main.js": "/static/js/main.fd4d5027.js",
+    "static/media/pizza.png": "/static/media/pizza.c644001e8aa3f3446e15.png",
+    "static/media/kebab.png": "/static/media/kebab.3c4858e89de56131e20d.png",
+    "static/media/burger.png": "/static/media/burger.cb91a41266710be009e6.png",
+    "static/media/salad.png": "/static/media/salad.c5129a877d11ec8a4de5.png",
+    "static/media/coca.png": "/static/media/coca.57521b94cac077d9dde9.png",
+    "static/media/CapustaRED.jpg": "/static/media/CapustaRED.200574905041d63487a6.jpg",
+    "static/media/icecream.png": "/static/media/icecream.596499d573e6d7c47d6a.png",
+    "static/media/water.png": "/static/media/water.52ba975d6e1bc5be32d3.png",
+    "static/media/Capusta.jpg": "/static/media/Capusta.2507d775003f13200a3f.jpg",
+    "static/media/Ogurci.jpg": "/static/media/Ogurci.27b3269d3d542c4b5d08.jpg",
+    "static/media/pomidor.jpg": "/static/media/pomidor.1339da9a735eef9e36ad.jpg",
+    "index.html": "/index.html",
+    "main.5b674415.css.map": "/static/css/main.5b674415.css.map",
+    "main.fd4d5027.js.map": "/static/js/main.fd4d5027.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b674415.css",
+    "static/js/main.fd4d5027.js"
+  ]
+}
